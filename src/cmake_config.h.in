@@ -26,10 +26,10 @@
 #cmakedefine CONFIG_PREFIX "@CONFIG_PREFIX@"
 
 /* Define to target installation dirs. */
-#cmakedefine CONFIG_BINDIR "@CONFIG_BINDIR@"
-#cmakedefine CONFIG_LIBDIR "@CONFIG_LIBDIR@"
-#cmakedefine CONFIG_DATADIR "@CONFIG_DATADIR@"
-#cmakedefine CONFIG_MANDIR "@CONFIG_MANDIR@"
+#cmakedefine CONFIG_BINDIR "@CMAKE_INSTALL_FULL_BINDIR@"
+#cmakedefine CONFIG_LIBDIR "@CMAKE_INSTALL_FULL_LIBDIR@"
+#cmakedefine CONFIG_DATADIR "@CMAKE_INSTALL_FULL_DATADIR@"
+#cmakedefine CONFIG_MANDIR "@CMAKE_INSTALL_FULL_MANDIR@"
 
 /* Define if debugging is enabled. */
 #cmakedefine CONFIG_DEBUG @CONFIG_DEBUG@
